@@ -1,3 +1,4 @@
+#Script using REST API to retrieve personal account, tariff  and consumption detals on Octupus Energy Website
 import requests
 import pandas as pd
 import json
@@ -12,7 +13,6 @@ def energy_dict(url,api):
         r = requests.get(url,auth=(api,''))
         output_dict = r.json()
         return output_dict#returns in a dictionary format
-
 ################################# Electric & Gas Credentials ############################################
 mpan_electric = '<electric mpan id>'#Type in your mpan number as derived from 'acct_info option
 mprn_gas ='<gas mprn id>'#Type in your mprn number as derived from 'acct_info option
