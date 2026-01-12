@@ -1,0 +1,105 @@
+{
+   "number": "A-668C3AD8",					#Account number
+   "properties": [
+      {
+         "id": 8383179,
+         "moved_in_at": "2024-08-07T00:00:00+01:00",
+         "moved_out_at": null,
+         "address_line_1": "FLAT 598, PENCIL COURT",
+         "address_line_2": "TOP HAT",
+         "address_line_3": "",
+         "town": "LONDON",
+         "county": "",
+         "postcode": "N12 5TX",
+         "electricity_meter_points": [
+            {
+               "mpan": "1013091645999",				#electric mpan id		
+               "profile_class": 2,
+               "consumption_day": 672,
+               "consumption_night": 252,
+               "meters": [
+                  {
+                     "serial_number": "D09W618999",		
+                     "registers": [
+                        {
+                           "identifier": "L",
+                           "rate": "NIGHT",
+                           "is_settlement_register": true
+                        },
+                        {
+                           "identifier": "N",
+                           "rate": "DAY",
+                           "is_settlement_register": true
+                        }
+                     ]
+                  },
+                  {
+                     "serial_number": "24J0236555",		#Electric serial number
+                     "registers": [
+                        {
+                           "identifier": "1",
+                           "rate": "DAY",
+                           "is_settlement_register": true
+                        },
+                        {
+                           "identifier": "2",
+                           "rate": "NIGHT",
+                           "is_settlement_register": true
+                        }
+                     ]
+                  }
+               ],
+               "agreements": [
+                  {
+                     "tariff_code": "E-2R-VAR-22-11-01-A",
+                     "valid_from": "2024-08-09T00:00:00+01:00",
+                     "valid_to": "2024-10-01T00:00:00+01:00"
+                  },
+                  {
+                     "tariff_code": "E-2R-OE-FIX-15M-24-09-24-A",
+                     "valid_from": "2024-10-01T00:00:00+01:00",
+                     "valid_to": "2026-01-01T00:00:00Z"
+                  },
+                  {
+                     "tariff_code": "E-2R-VAR-22-11-01-A",
+                     "valid_from": "2026-01-01T00:00:00Z",
+                     "valid_to": null
+                  }
+               ],
+               "is_export": false
+            }
+         ],
+         "gas_meter_points": [
+            {
+               "mprn": "3398564301",				#gas mprn id
+               "consumption_standard": 579,
+               "meters": [
+                  {
+                     "serial_number": "E6S14183497652"
+                  },
+                  {
+                     "serial_number": "G4A03854045601"		#Gas serial number
+                  }
+               ],
+               "agreements": [
+                  {
+                     "tariff_code": "G-2R-VAR-44-33-01-B",
+                     "valid_from": "2021-08-09T00:00:00+01:00",
+                     "valid_to": "2022-10-01T00:00:00+01:00"
+                  },
+                  {
+                     "tariff_code": "G-5R-TC-FIX-15M-24-01-52-A",
+                     "valid_from": "2023-10-01T00:00:00+01:00",
+                     "valid_to": "2025-01-01T00:00:00Z"
+                  },
+                  {
+                     "tariff_code": "G-6R-TC-FIX-15M-24-01-52-A",
+                     "valid_from": "2025-01-01T00:00:00Z",
+                     "valid_to": null
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
